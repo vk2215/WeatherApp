@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2020/01/04/16/33/sea-4741092_1280.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position : top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(233, 140, 103, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+.app-main > * {
+    margin-bottom: 20px;
+}
+.input-box{
+    width: 100%;
+    background-color: rgba(61, 59, 59, 0.6);
+    border: none;
+    outline: none;
+    color: #070606;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+    
+}
+.input-box:focus{
+    background-color: rgba(255,255,255);
+}
+::placeholder{
+    font:20px;
+    color: #020202;
+}
+
+.weather-body{
+    display: none;
+    color: #020202;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    height: 50vh;
+}
+.location-details{
+    font-weight: bold;
+
+}
+.weather-status{
+    padding : 20px;
+}
+.temp{
+    font-size:70px;
+    font-weight: 900;
+    margin: 20px;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+.min.max, .weather{
+    font-size:20px;
+    font-weight:600;
+
+}
